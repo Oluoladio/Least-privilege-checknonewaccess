@@ -1,7 +1,7 @@
 # Enforcing Least Privilege with CheckNoNewAccess
 
 ## Overview
-This repository demonstrates how to enforce the principle of least privilege using AWS Access Analyzer's `CheckNoNewAccess`. It includes sample IAM policies, CLI scripts, and outputs to validate policy changes before deployment.
+This repository demonstrates how to enforce the principle of least privilege using AWS Access Analyzer's `CheckNoNewAccess`. This tool ensures that changes to IAM policies do not introduce excessive permissions, aligning with the principle of least privilege.
 
 ![CheckNoNewAccess Diagram](images/checknoaccess.png)
 
