@@ -1,0 +1,17 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore AWS credentials and config (important for security)
+.aws/
+*.pem
+*.key
+
+# Ignore compiled and temporary files
+node_modules/
+__pycache__/
+*.log
+*.tmp
+
+# Ignore VS Code settings
+.vscode/

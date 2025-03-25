@@ -1,0 +1,22 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "*",
+            "Resource": "*"
+        },
+        {
+            "Effect": "Deny",
+            "Action": [
+                "s3:CreateBucket",
+                "s3:DeleteBucket",
+                "s3:DeleteBucketPolicy",
+                "s3:Get*",
+                "s3:List*",
+                "s3:Put*"
+            ],
+            "Resource": "arn:aws:s3:::my-sensitive-bucket"
+        }
+    ]
+}
